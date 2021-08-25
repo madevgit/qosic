@@ -1,0 +1,178 @@
+{
+    "en":{
+        "Title":"Simple, transparent pricing",
+        "description":"Simple choose your plan and apply",
+        "pricingCard":{
+            "fees":"for every subsequent successful transaction",
+            "point":"payment to your mobile money account daily",
+            "USSD":{
+                "point":"Installation charge depend to your need"
+            },
+            "API":{
+                "point":"No hidden fee or charges"
+            }
+        },
+        "details":{
+            "Title":"Learn more about",
+            "USSD":{
+                "shortText":"Support by",
+                "Lists":[
+                    "Collect payments from any type of phones without internet",
+                    "No development required for standard menu",
+                    "Starting using your personalized merchant code same day",
+                    "Retrieve all customers transaction data",
+                    "Starting using your personalized merchant code same day"
+                ]
+            },
+            "API":{
+                "shortText":"Payment by",
+                "Lists":[
+                    "Collect payments from your apps and websites",
+                    "Access to payment dashboard",
+                    "Collect payments from your apps and websites",
+                    "Reverse transactions",
+                    "Retrieve all customers transaction data"
+                ]
+            }
+        },
+         "faq":[
+            {
+                "title":"Do you have a sandbox where I can test your API?",
+                "content":" Yes, we have a testbed for you to test the API. Create an account and you will get the test credentials"
+            },
+            {
+                "title":"How do I receive the money paid by my customers?",
+                "content":"You will receive payout to your registered merchant mobile money account either automatically on a daily or weekly basis or  manually by withdrawing your money at any time to your registered number."
+            },
+            {
+                "title":"Do I need a Merchant Mobile Money Account?",
+                "content":" Yes. You should have a merchant/retail mobile money account. Visit the operator’s mobile money office to register for an account if you don’t already have one."
+            },
+            {
+                "title":"How long does it take for me to get my money (settlement)?",
+                "content":"For mobile money transactions, you get settled daily or weekly depending on your selection. If your business requires a more frequent settlement, kindly discuss with us for the possibility"
+            },
+            {
+                "title":"How much do you charge to integrate to the API?",
+                "content":"Integrate to our API is free of charge. You can create an account here"
+            },
+            {
+                "title":"How much do you charge to develop a USSD menu?",
+                "content":"It is free to onboard on the mobile money short code."
+            },
+            {
+                "title":"How much do you charge to onboard on mobile money USSD?",
+                "content":"The price for developing your USSD menu depends on the complexity of your customer journey. We will be glad to discuss with you to find a suitable solution for your use case"
+            },
+             {
+                "title":"Do you charge any other fee/commission?",
+                "content":"There is 1.7% commission on every successful payment transaction you receive"
+            },
+             {
+                "title":"Do you charge for payout?",
+                "content":"Payout into your merchant account is free"
+            },
+             {
+                "title":"Does integrating your API give access to other countries?",
+                "content":"At this moment, our API gives you access to Benin and Togo mobile money ( MTN Benin, Moov Benin and Moov Togo)"
+            },
+             {
+                "title":"Do you offer transactions volume discounts ?",
+                "content":"Yes! Merchants who process large volumes can enjoy a discount on the commission on transaction volume. Please contact sales."
+            },
+             {
+                "title":"Are you able to offer flat rate per transactions?",
+                "content":"Yeah, we offer flat rate per transaction to businesses such micro finance. In this scenario, we charge a flat fee per successful transaction. Kindly contact sales to discuss further"
+            }
+        ]
+    },
+    "fr":{
+        "Title":"Une tarification simple et transparente",
+        "description":"Il vous suffit de choisir votre plan et de l'appliquer",
+        "pricingCard":{
+            "fees":"pour chaque transaction ultérieure réussie",
+            "point":"paiement quotidien sur votre compte mobile money",
+            "USSD":{
+                "point":"Les frais d'installation dépendent de vos besoins"
+            },
+            "API":{
+                "point":"Pas de frais ou de charges cachés"
+            }
+        },
+        "details":{
+            "Title":"En savoir plus sur",
+            "USSD":{
+                "Title":"Détails de l'USSD",
+                "shortText":"Soutenu par",
+                "Lists":[
+                    "Recueillir des paiements à partir de n'importe quel type de téléphone sans Internet",
+                    "Aucun développement requis pour le menu standard",
+                    "Commencez à utiliser votre code marchand personnalisé le jour même",
+                    "Récupérer toutes les données de transaction des clients",
+                    "Commencez à utiliser votre code marchand personnalisé le jour même"
+                ]
+            },
+            "API":{
+                "Title":"Détails de l'API",
+                "shortText":"Paiement par",
+                "Lists":[
+                    "Collectez les paiements à partir de vos applications et sites web",
+                    "Accès au tableau de bord des paiements",
+                    "Collectez les paiements à partir de vos applications et sites web",
+                    "Transactions inversées",
+                    "Récupérer toutes les données de transaction des clients"
+                ]
+            }
+        },
+        "faq":[
+            {
+                "title":"Do you have a sandbox where I can test your API?",
+                "content":" Yes, we have a testbed for you to test the API. Create an account and you will get the test credentials"
+            },
+            {
+                "title":"How do I receive the money paid by my customers?",
+                "content":"You will receive payout to your registered merchant mobile money account either automatically on a daily or weekly basis or  manually by withdrawing your money at any time to your registered number."
+            },
+            {
+                "title":"Do I need a Merchant Mobile Money Account?",
+                "content":" Yes. You should have a merchant/retail mobile money account. Visit the operator’s mobile money office to register for an account if you don’t already have one."
+            },
+            {
+                "title":"How long does it take for me to get my money (settlement)?",
+                "content":"For mobile money transactions, you get settled daily or weekly depending on your selection. If your business requires a more frequent settlement, kindly discuss with us for the possibility"
+            },
+            {
+                "title":"How much do you charge to integrate to the API?",
+                "content":"Integrate to our API is free of charge. You can create an account here"
+            },
+            {
+                "title":"How much do you charge to develop a USSD menu?",
+                "content":"It is free to onboard on the mobile money short code."
+            },
+            {
+                "title":"How much do you charge to onboard on mobile money USSD?",
+                "content":"The price for developing your USSD menu depends on the complexity of your customer journey. We will be glad to discuss with you to find a suitable solution for your use case"
+            },
+             {
+                "title":"Do you charge any other fee/commission?",
+                "content":"There is 1.7% commission on every successful payment transaction you receive"
+            },
+             {
+                "title":"Do you charge for payout?",
+                "content":"Payout into your merchant account is free"
+            },
+             {
+                "title":"Does integrating your API give access to other countries?",
+                "content":"At this moment, our API gives you access to Benin and Togo mobile money ( MTN Benin, Moov Benin and Moov Togo)"
+            },
+             {
+                "title":"Do you offer transactions volume discounts ?",
+                "content":"Yes! Merchants who process large volumes can enjoy a discount on the commission on transaction volume. Please contact sales."
+            },
+             {
+                "title":"Are you able to offer flat rate per transactions?",
+                "content":"Yeah, we offer flat rate per transaction to businesses such micro finance. In this scenario, we charge a flat fee per successful transaction. Kindly contact sales to discuss further"
+            }
+        ]
+    }
+}

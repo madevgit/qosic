@@ -1,0 +1,30 @@
+{
+    "en":{
+        "security":{
+            "Title":"Total Security",
+            "description":"QOS API is designed on the \"Security First\" principle.  your transcations and customers data are fully protected so payments made on our platform are 100% secure."
+        },
+        "handle":{
+            "Title":"Easy to handle",
+            "description":"QOS provide you with well-detailled documentation and an integration tools to help users and developers integrated QOS products in a very simple way."
+        },
+        "fees":{
+            "Title":"Low fees",
+            "description":"We have the lowest fees on the market."
+        }
+    },
+    "fr":{
+        "security":{
+            "Title":"Sécurité Totale",
+            "description":"L'api QOS est conçue sur le principe de la \"sécurité d'abord\". Vos transcations et les données de vos clients sont entièrement protégées, de sorte que les paiements effectués sur notre plateforme sont 100% sécurisés."
+        },
+        "handle":{
+            "Title":"Facile à manipuler",
+            "description":"QOS vous fournit une documentation bien rédigée et des outils d'intégration pour aider les utilisateurs et les développeurs à intégrer les produits QOS de manière très simple."
+        },
+        "fees":{
+            "Title":"Frais réduits",
+            "description":"Nous avons les frais les plus bas du marché."
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "en":{
+        "PreTitle":"Get Payment without internet",
+        "Title":"Develop your customer journey and payments using USSD",
+        "description":"Your company is not on the Internet and you want to receive payments by mobile money? It is possible! You can use the standard QOS payment menu or we can build a complex menu based on your customers' experiences."
+    },
+    "fr":{
+        "PreTitle":"Recevoir des paiements sans internet",
+        "Title":"Développez votre parcours client et vos paiements en utilisant le code USSD",
+        "description":"Votre entreprise n'est pas sur Internet et vous voulez recevoir des paiements par mobile money ? C'est possible ! Vous pouvez utiliser le menu de paiement standard de QoS ou nous pouvons construire un menu complexe en fonction des expériences de vos clients."
+    }    
+}

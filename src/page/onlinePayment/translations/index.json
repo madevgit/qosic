@@ -1,0 +1,58 @@
+{
+    "en":{
+        "Title":"Start accepting mobile money with QOS secure API same day",
+        "description":"Accept and manage online mobile money payments on your websites or applications through our API with a dashboard that allows you to easily collect and manage your transaction information.",
+        "subTitle":"Why use our API?",
+        "subTitle0":"They talk about",
+        "testimonials":[
+            {
+                "name":"Andre Corson",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Saïd Assouma",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Gildas Gbossou",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Adim Al-hassane",
+                "poste":"Founder of coinTop",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            }
+        ]
+    },
+    "fr":{
+        "Title":"Commencez à accepter le paiement mobile avec l'API sécurisée de QOS le jour même.",
+        "description":"Accepter et gérer les payments mobile money en ligne sur vos sites web ou application à travers notre API garnis d'un tableau de bord vous permettant de collecter et gérer aisement les informations sur vos transactions.",
+        "subTitle":"Pourquoi utiliser notre API ?",
+        "subTitle0":"Ils en parle",
+        "testimonials":[
+            {
+                "name":"Andre Corson",
+                "poste":"CEO chef exécutif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Saïd Assouma",
+                "poste":"CEO chef exécutif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Gildas Gbossou",
+                "poste":"CEO chef exécutif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Adim Al-hassane",
+                "poste":"CEO chef exécutif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            }
+        ]        
+    }
+}

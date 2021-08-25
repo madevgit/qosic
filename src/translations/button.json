@@ -1,0 +1,20 @@
+{
+    "en":{
+        "registerButton":"Create account",
+        "logInButton":"Log in",
+        "saleButton":"Contact sales",
+        "callTodocs":"Read documentation",
+        "contactus":"Contact-us",
+        "productPart":"Discover now",
+        "mailSender":"Send"
+    },
+    "fr":{
+        "registerButton":"Créer un compte",
+        "logInButton":"Connexion",
+        "saleButton":"Contacter le service des ventes",
+        "callTodocs":"Lire la documentation",
+        "contactus":"Contactez-nous",
+        "productPart":"Découvrez maintenant",
+        "mailSender":"Envoyer"
+    }
+}

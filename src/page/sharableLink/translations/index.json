@@ -1,0 +1,84 @@
+{
+    "en":{
+        "Title":"Use payment links to sell online without a website",
+        "description":"Your bussiness is not online ? Or you haven't a website ? This solution is for you. Just create a payment link and share with any customers to accept mobile money.",
+        "subTitle":"Complete it in few steps",
+        "steps":[
+            {
+                "name":"Create QOS account",
+                "description":"Your QOS account grants you access to QOS dashboard."
+            },
+            {
+                "name":"Share payment link",
+                "description":"Once you have access to dashboard, you can create a \"payment Link\"."
+            },
+            {
+                "name":"Create payment link",
+                "description":"Now you can share the payment to any customers on any platform to accept mobile money the secure and simple way."
+            }
+        ],
+        "testimonials":[
+            {
+                "name":"Andre Corson",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Saïd Assouma",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Gildas Gbossou",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Adim Al-hassane",
+                "poste":"Founder of coinTop",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            }
+        ]
+    },
+    "fr":{
+        "Title":"Utiliser des liens de paiement pour vendre en ligne sans site web",
+        "description":"ou votre entreprise n'est pas en ligne ? Ou vous n'avez pas de site web ? Cette solution est pour vous. Il suffit de créer un lien de paiement et de le partager avec n'importe quel client pour accepter l'argent mobile.",
+        "subTitle":"Complétez-le en quelques étapes",
+        "steps":[
+            {
+                "name":"Créer un compte QOS",
+                "description":"Votre compte QOS vous permet d'accéder au tableau de bord QOS où vous pouvez facilement créer vos liens de paiement et gérer vos transactions."
+            },
+            {
+                "name":"Créer un lien de paiement",
+                "description":"Ensuite, vous avez accès au tableau de bord, créer un lien de paiement devient plus facile en accédant à la fonction \"lien de paiement\"."
+            },
+            {
+                "name":"Partager le lien de paiement",
+                "description":"Vous pouvez désormais partager le paiement avec n'importe quel client sur n'importe quelle plateforme pour accepter l'argent mobile de manière simple et sécurisée."
+            }
+        ],
+        "testimonials":[
+            {
+                "name":"Andre Corson",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Saïd Assouma",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Gildas Gbossou",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Adim Al-hassane",
+                "poste":"Founder of coinTop",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            }
+        ]
+    }
+}

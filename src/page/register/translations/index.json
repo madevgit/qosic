@@ -1,0 +1,18 @@
+{
+    "en":{
+        "Title0":"Create your",
+        "Title1":"QOS",
+        "Title2":"account",
+        "backButton":"back",
+        "nextButton":"next",
+        "registerButton":"Create Account"
+    },
+    "fr":{
+        "Title0":"Créez votre compte",
+        "Title1":"",
+        "Title2":"QOS",
+        "backButton":"retour",
+        "nextButton":"Suivant",
+        "registerButton":"Valider"
+    }
+}

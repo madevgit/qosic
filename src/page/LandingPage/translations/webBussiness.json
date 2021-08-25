@@ -1,0 +1,14 @@
+{
+    "en":{
+        "PreTitle":"Online Bussiness",
+        "Title":"Build mobile money payments with our well designed APIs",
+        "description0":"Do you want to receive payments and make transfers from your website or application?",
+        "description1":"The QOS API allows you through its simple and intuitive dashboard to manage your transactions, perform reverse transactions and even collect transaction information from your customers."
+    },
+    "fr":{
+        "PreTitle":"Online Bussiness",
+        "Title":"Créez des moyens de paiements grâce à nos APIs bien conçues.",
+        "description0":"Vous désirez récevoir les paiements et effectuer des virements depuis votre site web ou application ?",
+        "description1":"L’API QoS vous permet à travers son tableau de bord simple et intuitif de gérer vos transactions, d’effétuer des opérations inversées et même de collecter les informations de transactions de vos clients."
+    }
+}

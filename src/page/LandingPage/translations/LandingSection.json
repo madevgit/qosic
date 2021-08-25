@@ -1,0 +1,10 @@
+{
+    "en":{
+        "HelloText":"Enabling mobile payments and business growth in Africa.",
+        "description":"Many enterprises and start-ups use our API to build everything from simple payment for few customers, to complex financial products serving several thousands of customes."
+    },
+    "fr":{
+        "HelloText":"Permettre les paiements mobiles et la croissance des entreprises en Afrique.",
+        "description":"De nombreuses entreprises et start-ups utilisent notre API pour créer des produits allant du simple paiement pour quelques clients aux produits financiers complexes destinés à plusieurs milliers de clients."
+    }
+}

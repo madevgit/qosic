@@ -1,0 +1,90 @@
+{
+    "en":{
+        "Title":"Accept mobile money without internet",
+        "description":"Your business is not on the internet and you want to receive mobile money payments? It's possible! You can use QoS standard payment menu or we can build complex menu depending on your customers experiences",
+        "subTitle0":"Why use our API?",
+        "details":[
+            {
+                "name":"Access to Dashboard",
+                "text":"Ours APIS are build to be supported by many techonlogies such as PHP, Laravel, Django & Ajax, javascript and wordpress woocommerce."
+            },
+            {
+                "name":"Easy reconciliation",
+                "text":"Ours APIS are build to be supported by many techonlogies such as PHP, Laravel, Django & Ajax, javascript and wordpress woocommerce."
+            },
+            {
+                "name":"Customizable USSD menu",
+                "text":"Ours APIS are build to be supported by many techonlogies such as PHP, Laravel, Django & Ajax, javascript and wordpress woocommerce."
+            }
+        ],
+        "subTitle1":"Simple USSD flow for end users",
+        "description0":"We design and build your USSD menu according to your need and your customers experience.They accomplish journey on few simple steps.",
+        "subTitle2":"They use it",
+        "testimonials":[
+            {
+                "name":"Andre Corson",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Saïd Assouma",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Gildas Gbossou",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Adim Al-hassane",
+                "poste":"Founder of coinTop",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            }
+        ]
+    },
+    "fr":{
+        "Title":"Accepter l'argent mobile sans internet",
+        "description":"Votre businness n’est pas sur internet et vous souhaitez récevoir des payments mobile money ? C’est possible ! You can use QoS standard payment menu or we can build complex menu depending on your customers experiences",
+        "subTitle0":"Pourquoi utiliser notre API ?",
+        "details":[
+            {
+                "name":"Accès au tableau de bord",
+                "text":"Ours APIS are build to be supported by many techonlogies such as PHP, Laravel, Django & Ajax, javascript and wordpress woocommerce."
+            },
+            {
+                "name":"Réconciliation facile",
+                "text":"Ours APIS are build to be supported by many techonlogies such as PHP, Laravel, Django & Ajax, javascript and wordpress woocommerce."
+            },
+            {
+                "name":"Menu USSD personnalisable",
+                "text":"Ours APIS are build to be supported by many techonlogies such as PHP, Laravel, Django & Ajax, javascript and wordpress woocommerce."
+            }
+        ],
+        "subTitle1":"Flux USSD simple pour les utilisateurs finaux",
+        "description0":"Nous concevons et construisons votre menu USSD en fonction de vos besoins et de l'expérience de vos clients, qui accomplissent leur voyage en quelques étapes simples.",
+        "subTitle2":"Ils l'utilisent",
+        "testimonials":[
+            {
+                "name":"Andre Corson",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Saïd Assouma",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Gildas Gbossou",
+                "poste":"CEO chef executif",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            },
+            {
+                "name":"Adim Al-hassane",
+                "poste":"Founder of coinTop",
+                "text":"Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro.Qui vero iste illum neque corrupti porro."
+            }
+        ]
+    }
+}

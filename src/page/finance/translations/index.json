@@ -1,0 +1,50 @@
+{
+    "en":{
+        "Title":"We enable MFIs extend their digitial finance footprint",
+        "description0":"We provide a simple, flexible, secure solution that is scalable to meet the MFI future needs. The Micro Finance solution fine-tunes and adjusts existing processes and workflows as required. It is built to adapt to the changing business needs and can incorporate new products and business models easily.",
+        "description1":"Customers can have access to micro finance through Unstructured Supplementary Service Data (USSD), web interface and mobile app. This is designed to serve customers in difficult to reach areas who might not have access to the internet or smart phones.",
+        "Feature":{
+            "Title":"Key Feature",
+            "items":[
+                "High quality architecture to enable fast and efficient work-flow as per the business goals and objectives",
+                "Highly secured platform enabling MFIs to provide savings, loans and other value added services to their customers on their handsets.",
+                "Easy to read reporting for audit and reconciliation",
+                "Capable to support integration of third party content, equipped with APIs and development tools for deploying multiple value added"
+            ]
+        },
+        "benefits":{
+            "Title":"Key benefits",
+            "items":[
+                "Enabling MFIs to reduce costs of operations, add flexibility and improve data accuracy",
+                "Ease of service distribution, customer acquisition and extended reach through secure & hassle-free channel",
+                "Flexibility through customized work flow and processes",
+                "Access to financial services through Customer web portal, mobile app and USSD"
+            ]
+        },
+        "subtitle":"Ready to join us today ?"
+    },
+    "fr":{
+        "Title":"Nous permettons aux IMF d'étendre leur empreinte financière numérique.",
+        "description0":"Nous fournissons une solution simple, flexible, sécurisée et évolutive pour répondre aux besoins futurs des IMF. La solution de microfinance affine et ajuste les processus et flux de travail existants selon les besoins. Elle est conçue pour s'adapter aux besoins changeants des entreprises et peut facilement intégrer de nouveaux produits et modèles d'affaires.",
+        "description1":"Les clients peuvent avoir accès à la microfinance par le biais de données de service supplémentaires non structurées (USSD), d'une interface web et d'une application mobile.Ce service est conçu pour servir les clients dans les zones difficiles d'accès qui n'ont peut-être pas accès à l'internet ou aux téléphones intelligents.",
+        "Feature":{
+            "Title":"Principale caractéristique",
+            "items":[
+                "Une architecture de haute qualité pour permettre un flux de travail rapide et efficace, conformément aux buts et objectifs de l'entreprise.",
+                "Plateforme hautement sécurisée permettant aux IMF de fournir des services d'épargne, de prêt et d'autres services à valeur ajoutée à leurs clients sur leurs téléphones portables.",
+                "Des rapports faciles à lire pour l'audit et la réconciliation",
+                "Capable de prendre en charge l'intégration de contenus tiers, équipé d'API et d'outils de développement permettant de déployer de multiples services à valeur ajoutée."
+            ]
+        },
+        "benefits":{
+            "Title":"Principaux avantages",
+            "items":[
+                "Permettre aux IMF de réduire les coûts d'exploitation, d'accroître la flexibilité et d'améliorer la précision des données.",
+                "Faciliter la distribution des services, l'acquisition de clients et l'extension de la portée par le biais d'un canal sécurisé et sans tracas.",
+                "Flexibilité grâce à un flux de travail et des processus personnalisés",
+                "Accès aux services financiers via le portail web client, l'application mobile et l'USSD"
+            ]
+        },
+        "subtitle":"Prêt à nous rejoindre aujourd'hui ?"
+    }
+}

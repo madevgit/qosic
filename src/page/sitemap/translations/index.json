@@ -1,0 +1,10 @@
+{
+    "en":{
+        "links":["Links","Home","Pricing","Sitemap","LogIn","Create account"],
+        "legal":["Legal","Terms and conditions","Privacy policy"]
+    },
+    "fr":{
+        "links":["Liens","Accueil","Tarification","Plan du site","Connexion","Créer un compte"],
+        "legal":["Légal","Conditions d'utilisation","Politique de confidentialité"]
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "en":{
+    "Title":"Contact Us",
+    "description":"Share with us your problem, idea",
+    "subTitle":"Contact information"
+  },
+  "fr":{
+        "Title":"Contactez-nous",
+        "description":"partagez avec nous votre problème, votre idée",
+        "subTitle":"Informations de Contact"
+  }
+}

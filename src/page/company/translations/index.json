@@ -1,0 +1,68 @@
+{
+    "en":{
+        "Title":"We are a technology company focused on expanding digital payment footprints in Africa.",
+        "description":"Our mission is to enable business growth in Africa by building a payment infrastructure that allows individuals, start-ups and large organizations to easily make and accept payments.",
+        "value":{
+            "Title":"Core Value",
+            "description":"We are deeply customer driven company and our decisions are influenced by these core values that have shaped our company culture ",
+            "Lists":["Customer success","Collaboration","Simplicity","Empathy","Commitment to High Standards","Continuous Growth and Learning"]
+        },
+        "products":{
+            "Title":"Ours Products",
+            "description":"We design and build products that help enterprises, start-up and large businesses to scale and grow.",
+            "Lists":[{
+                "name":"Online payment",
+                "description":"Enable you accept your customers payments from internet"
+            },{
+                "name":"Offline payment",
+                "description":"Allow your oganize your bussiness without internet"
+            },{
+                "name":"Sharable Link",
+                "description":"create payment link for your product and share with your customers"
+            },{
+                "name":"Digital finance",
+                "description":"Allow finance organsiation digitalize their bussiness"
+            }]
+        },
+        "Customers":{
+            "Title":"Customers"
+        },
+        "Invitation":{
+            "Title":"Will you work with us ?",
+            "buttonText":"Contact Us Here"
+        }
+    },
+    "fr":{
+        "Title":"Nous sommes une entreprise technologique qui se concentre sur l'expansion de l'empreinte des paiements numériques en Afrique.",
+        "description":"Notre mission est de favoriser la croissance des entreprises en Afrique en mettant en place une infrastructure de paiement qui permet aux particuliers, aux jeunes entreprises et aux grandes organisations d'effectuer et d'accepter facilement des paiements.",
+        "value":{
+            "Title":"Valeur fondamentale",
+            "description":"Nous sommes une entreprise profondément axée sur le client et nos décisions sont influencées par les valeurs fondamentales qui ont façonné notre culture d'entreprise.",
+            "Lists":["Succès du client","Collaboration","Simplicité","Empathie","Engagement à respecter des normes élevées","Croissance et apprentissage continus"]
+        },
+        "products":{
+            "Title":"Nos produits",
+            "description":"Nous concevons et construisons des produits qui aident les entreprises, les start-ups et les grandes entreprises à se développer et à croître.",
+            "Lists":[{
+                "name":"Paiement en ligne",
+                "description":"Permettre d'accepter les paiements de vos clients depuis l'internet"
+            },{
+                "name":"Paiement hors ligne",
+                "description":"Permettez à votre entreprise de fonctionner sans internet."
+            },{
+                "name":"Lien partageable",
+                "description":"créer un lien de paiement pour votre produit et le partager avec vos clients"
+            },{
+                "name":"La finance numérique",
+                "description":"Permettre aux organismes financiers de numériser leur activité."
+            }]
+        },
+        "Customers":{
+            "Title":"Clients"
+        },
+        "Invitation":{
+            "Title":"Travaillerez-vous avec nous ?",
+            "buttonText":"Contactez-nous ici"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "en":{
+        "Title":"Join Us today !",
+        "subTitle0":"More than 4000",
+        "subTitle1":"More than 200",
+        "description0":"requests are performed on our API per day",
+        "description1":"companies in Benin use QOS api to grow their bussiness"
+    },
+    "fr":{
+        "Title":"Rejoignez-nous dès aujourd'hui !",
+        "subTitle0":"Plus de 1000+",
+        "subTitle1":"Plus de 20+",
+        "description0":"transactions sont effectuées sur notre API par jour",
+        "description1":"entreprises au Bénin utilisent l'api de QOS pour développer leur activité."
+    }
+}
