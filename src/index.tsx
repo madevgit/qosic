@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, MemoryRouter } from "react-router-dom";
+import { HashRouter as Router, MemoryRouter } from "react-router-dom";
 import ReactDOM from "react-dom";
 import "./prism-night-owl.css";
 import "react-intl-tel-input/dist/main.css";
