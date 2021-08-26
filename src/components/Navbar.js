@@ -69,7 +69,7 @@ export default function Navbar() {
       <nav id="navbarLink" className="max-h-full w-8/12">
         <ul className="hidden w-full text-mmd items-center justify-end text-opacity-80 font-medium lg:flex">
           <li className="relative group block mx-1.5 lg:mx-2.5 xl:mx-5 ">
-            <Link id="product" to="#">
+            <Link id="product" to="#" className="font-bold hover:text-qosdark">
               {Infos.Links.products.name}
               <span className="fi fi-rr-angle-small-down align-bottom inline-block text-msm ml-1"></span>
             </Link>
@@ -106,7 +106,7 @@ export default function Navbar() {
             </nav>
           </li>
           <li className="relative group block mx-1.5 lg:mx-2.5 xl:mx-5 ">
-            <Link to="#">
+            <Link to="#" className="font-bold hover:text-qosdark">
               {Infos.Links.company.name}
               <span className="fi fi-rr-angle-small-down align-bottom inline-block text-msm ml-1"></span>
             </Link>
@@ -127,26 +127,33 @@ export default function Navbar() {
             </nav>
           </li>
           <li className="block mx-1.5 lg:mx-2.5 xl:mx-5">
-            <Link id="developer" target="_blank" to="/docs">
+            <Link
+              id="developer"
+              target="_blank"
+              className="font-bold hover:text-qosdark"
+              to="/docs"
+            >
               {Infos.Links.developers}
             </Link>
           </li>
           <li className="block mx-1.5 lg:mx-2.5 xl:mx-5">
-            <Link to="/pricing">{Infos.Links.price}</Link>
+            <Link className="font-bold hover:text-qosdark" to="/pricing">
+              {Infos.Links.price}
+            </Link>
           </li>
         </ul>
       </nav>
       <div className="hidden lg:block justify-between w-4/12 xl:w-3/12">
         <Link
           to="/login"
-          className="p-2 inline-block btn-sm max-w-max mx-auto m-2 font-medium"
+          className="p-2 font-bold inline-block btn-sm max-w-max mx-auto mr-4 hover:text-qosdark m-2"
         >
           {Infos.Links.logInButton}{" "}
           <span className="fi fi-rr-angle-small-right text-msm"></span>
         </Link>
         <Link
           to="/register"
-          className={`p-2 inline-block rounded-full px-3 shadow-lg font-medium btn-sm max-w-max mx-auto text-qosgray text-opacity-90 m-2 bg-qosorange`}
+          className={`p-2 font-bold inline-block rounded-full px-3 shadow-lg btn-sm max-w-max mx-auto text-qosgray text-opacity-90 m-2 bg-qosorange`}
         >
           {Infos.Links.registerButton}
         </Link>

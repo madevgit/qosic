@@ -143,19 +143,19 @@ export default function Post() {
   return (
     <div className="bg-qosgray">
       <Wrapper id="Editor" className="py-32 md:w-10/12 mx-auto">
-        <h3 className="my-8 block max-w-screen-lg mx-auto text-center">
+        <h3 className="my-4 md:text-mH2 block max-w-screen-md mx-auto">
           {Post.title}
         </h3>
-        <div className="flex w-11/12 mx-auto items-center my-8">
+        <div className="flex w-11/12 max-w-screen-md mx-auto items-center my-4">
           <p className="text-qosorange uppercase opacity-90 mr-8 font-medium">
             {Post.category}
           </p>
           <p className="text-msm md:text-mmd">{dateString}</p>
         </div>
-        <div className="mx-auto h-96 w-11/12 overflow-hidden">
+        <div className="mx-auto my-4 h-96 w-11/12 max-w-screen-md overflow-hidden">
           <img src={Post.poster} alt="" className="poster" />
         </div>
-        <section className="w-11/12 mx-auto sticky md:flex justify-between h-screen overflow-auto hideScroll">
+        <section className="w-11/12 max-w-screen-md mx-auto sticky md:flex justify-between overflow-auto hideScroll">
           <div className="flex sticky self-start top-1/4 justify-between items-center max-w-max">
             <img
               className="profil"
@@ -189,6 +189,9 @@ export default function Post() {
         </section>
       </Wrapper>
       <Wrapper>
+        <h3 className="md:text-mH1 text-center mb-8">Read more articles</h3>
+      </Wrapper>
+      <Wrapper className="mb-20">
         <ArticlesGrid skip={params.pos} category={params.cat} />
       </Wrapper>
     </div>
@@ -213,7 +216,7 @@ function ArticlesGrid({ skip, category }: any) {
 
   return (
     <>
-      <div className="grid md:grid-cols-2 content-around w-full justify-center lg:grid-cols-4 gap-y-4 gap-x-4 max-w-scren-md mx-auto p-4 lg:p-0">
+      <div className="grid md:grid-cols-2 w-full lg:grid-cols-4 gap-y-4 gap-x-4 mx-auto p-4 lg:p-0">
         {Posts.posts.map((data, index) => (
           <Article
             key={index}

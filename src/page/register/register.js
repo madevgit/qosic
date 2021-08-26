@@ -14,6 +14,59 @@ export default function RegisterPage() {
     let CurrentScroll = stepForm.scrollLeft;
     let currentPos = 1;
 
+    function ControlHandler() {
+      currentPos = +(CurrentScroll / formWidth);
+
+      if (CurrentScroll < formWidth * 2 && this.id === "next") {
+        document
+          .querySelectorAll(".stepStatus")
+          [currentPos].classList.toggle("active");
+        document
+          .querySelectorAll(".stepStatus")
+          [currentPos + 1].classList.add("active");
+        document
+          .querySelectorAll(".stepStatus")
+          [currentPos].classList.add("passed");
+        CurrentScroll += formWidth;
+        stepForm.scrollTo({ left: CurrentScroll, behavior: "smooth" });
+      }
+
+      if (CurrentScroll > 0 && this.id === "prev") {
+        document
+          .querySelectorAll(".stepStatus")
+          [currentPos].classList.toggle("active");
+        document
+          .querySelectorAll(".stepStatus")
+          [currentPos - 1].classList.toggle("passed");
+        document
+          .querySelectorAll(".stepStatus")
+          [currentPos - 1].classList.add("active");
+
+        CurrentScroll -= formWidth;
+        stepForm.scrollTo({ left: CurrentScroll, behavior: "smooth" });
+      }
+
+      if (CurrentScroll === formWidth * 2) {
+        setTimeout(() => {
+          document.querySelector("#next").setAttribute("form", "stepForm");
+          document
+            .querySelector("#next")
+            .firstChild.replaceWith(Infos.msg.registerButton);
+        });
+      } else {
+        document.querySelector("#next").removeAttribute("form");
+        document
+          .querySelector("#next")
+          .firstChild.replaceWith(Infos.msg.nextButton);
+      }
+
+      if (CurrentScroll > 0) {
+        document.querySelector("#prev").hidden = false;
+      } else {
+        document.querySelector("#prev").hidden = true;
+      }
+    }
+
     stepForm.querySelectorAll("input").forEach((input) => {
       input.addEventListener("focus", function (e) {
         stepForm.scrollTo({
@@ -22,58 +75,9 @@ export default function RegisterPage() {
         });
       });
     });
+
     document.querySelectorAll(".controls").forEach((buttonControl) => {
-      buttonControl.addEventListener("click", function (e) {
-        currentPos = +(CurrentScroll / formWidth);
-
-        if (CurrentScroll < formWidth * 2 && this.id === "next") {
-          document
-            .querySelectorAll(".stepStatus")
-            [currentPos].classList.toggle("active");
-          document
-            .querySelectorAll(".stepStatus")
-            [currentPos + 1].classList.add("active");
-          document
-            .querySelectorAll(".stepStatus")
-            [currentPos].classList.add("passed");
-          CurrentScroll += formWidth;
-          stepForm.scrollTo({ left: CurrentScroll, behavior: "smooth" });
-        }
-
-        if (CurrentScroll > 0 && this.id === "prev") {
-          document
-            .querySelectorAll(".stepStatus")
-            [currentPos].classList.toggle("active");
-          document
-            .querySelectorAll(".stepStatus")
-            [currentPos - 1].classList.toggle("passed");
-          document
-            .querySelectorAll(".stepStatus")
-            [currentPos - 1].classList.add("active");
-
-          CurrentScroll -= formWidth;
-          stepForm.scrollTo({ left: CurrentScroll, behavior: "smooth" });
-        }
-
-        if (CurrentScroll === formWidth * 2) {
-          setTimeout(() => {
-            document.querySelector("#next").setAttribute("form", "stepForm");
-            document
-              .querySelector("#next")
-              .firstChild.replaceWith(Infos.msg.registerButton);
-          });
-        } else {
-          document.querySelector("#next").removeAttribute("form");
-          document
-            .querySelector("#next")
-            .firstChild.replaceWith(Infos.msg.nextButton);
-        }
-        if (CurrentScroll > 0) {
-          document.querySelector("#prev").hidden = false;
-        } else {
-          document.querySelector("#prev").hidden = true;
-        }
-      });
+      buttonControl.addEventListener("click", ControlHandler);
     });
   }, [Infos.msg.registerButton, Infos.msg.nextButton]);
   return (
@@ -127,6 +131,7 @@ export default function RegisterPage() {
                 name="firstname"
                 required
                 placeholder={Infos.input.firstname.placeholder}
+                autoComplete="false"
               />
             </div>
             <div className="mt-6 mx-auto w-full px-2">
@@ -136,13 +141,14 @@ export default function RegisterPage() {
                 name="lastname"
                 required
                 placeholder={Infos.input.lastname.placeholder}
+                autoComplete="false"
               />
             </div>
             <div className="mt-6 mx-auto w-full px-2">
               <label className="block"> {Infos.input.tel.label}</label>
               <IntlTelInput
                 onlyCountries={["bj", "tg"]}
-                telInputProps={{ required: true }}
+                telInputProps={{ required: true, autoComplete: false }}
                 preferredCountries={["bj", "tg"]}
               />
             </div>
@@ -156,6 +162,7 @@ export default function RegisterPage() {
                 type="text"
                 required
                 placeholder={Infos.input.business.placeholder}
+                autoComplete="false"
               />
             </div>
             <div className="mt-6 mx-auto w-full px-2">
@@ -183,18 +190,31 @@ export default function RegisterPage() {
                 type="email"
                 required
                 placeholder={Infos.input.email.placeholder}
+                autoComplete="false"
               />
             </div>
             <div className="mt-6 mx-auto w-full px-2">
               <label className="block">{Infos.input.password.label}</label>
-              <input className="" name="lastname" type="password" required />
+              <input
+                className=""
+                name="lastname"
+                type="password"
+                required
+                autoComplete="false"
+              />
             </div>
             <div className="mt-6 mx-auto w-full px-2">
               <label className="block">{Infos.input.passwordC.label}</label>
               <input className="" name="lastname" type="password" required />
             </div>
             <div className="mt-6 mx-auto w-full px-2">
-              <input id="privacy" type="checkbox" name="privacy" required />
+              <input
+                autoComplete="false"
+                id="privacy"
+                type="checkbox"
+                name="privacy"
+                required
+              />
               <label htmlFor="privacy" className="text-msm font-normal ml-4">
                 {Infos.input.checkTerms.label}
               </label>

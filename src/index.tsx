@@ -1,23 +1,25 @@
-import React from 'react'
-import { BrowserRouter as Router } from 'react-router-dom'
-import ReactDOM from 'react-dom'
-import './prism-night-owl.css'
-import 'react-intl-tel-input/dist/main.css';
-import './index.css'
-import App from './App'
-import LangsProvider from './components/translateContext';
+import React from "react";
+import { BrowserRouter as Router, MemoryRouter } from "react-router-dom";
+import ReactDOM from "react-dom";
+import "./prism-night-owl.css";
+import "react-intl-tel-input/dist/main.css";
+import "./index.css";
+import App from "./App";
+import LangsProvider from "./components/translateContext";
 
-import reportWebVitals from './reportWebVitals'
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
     <LangsProvider>
-      <Router>
-        <App />
-      </Router>
+      <MemoryRouter>
+        <Router>
+          <App />
+        </Router>
+      </MemoryRouter>
     </LangsProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
