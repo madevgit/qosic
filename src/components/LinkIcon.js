@@ -8,7 +8,7 @@ export function LinkIcon({ target, icon, link, name, description = false }) {
         src={icon}
         alt="hello"
       />
-      <div className="ml-2 group-hover:bg-qosdark">
+      <div className="ml-2">
         <p className="text-msm font-semibold md:text-dsm group-hover">
           {" "}
           {name}{" "}

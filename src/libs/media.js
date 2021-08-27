@@ -22,6 +22,7 @@ import partner18 from "../images/partners/Pieuve.png";
 import partner19 from "../images/partners/siroco.png";
 import partner20 from "../images/partners/sunu.png";
 import partner21 from "../images/partners/moov.png";
+import partner22 from "../images/partners/zeyi.png"
 
 // 1.3- CUSTUMERS AND PARTNERS LOGOS
 import github from "../images/clients/github.png";
@@ -184,6 +185,7 @@ export const media = {
       partner19,
       partner13,
       partner11,
+      partner22
     ],
     other: {
       github: github,
