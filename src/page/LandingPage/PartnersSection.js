@@ -9,7 +9,7 @@ export default function Partners() {
     >
       <svg width="0" height="0" className="fixed">
         <defs>
-          <clipPath id="myCurve" clipPathUnits="objectBoundingBox">
+          <clipPath id="myCrve" clipPathUnits="objectBoundingBox">
             <path
               d="M 0,1
 									L 0,.25

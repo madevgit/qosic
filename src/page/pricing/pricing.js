@@ -5,11 +5,6 @@ import Wrapper from "../../components/sectionWrapper";
 import Messages from "./translations/index.json";
 import { useLangContext } from "../../components/translateContext";
 import buttonText from "../../translations/button.json";
-import { withStyles } from "@material-ui/core/styles";
-import MuiAccordion from "@material-ui/core/Accordion";
-import MuiAccordionSummary from "@material-ui/core/AccordionSummary";
-import MuiAccordionDetails from "@material-ui/core/AccordionDetails";
-import Typography from "@material-ui/core/Typography";
 
 const { moov, mtn } = media.Logos.other;
 const { check } = media.Icons[2];
@@ -176,9 +171,9 @@ export default function PricingPage() {
           </div>
         </section>
       </Wrapper>
-      <section className="grid grid-flow-row md:grid-cols-2 gap-x-8 py-8 px-6 md:px-10 lg:px-8 xl:px-28">
+      <section className="grid grid-flow-row py-8 px-6 lg:px-8 xl:px-28">
         <h2 className="text-center mb-8">FAQ</h2>
-        <div className="overflow-hidden rounded-lg max-w-screen-sm">
+        <div className="overflow-hidden rounded-lg max-w-screen-sm mx-auto">
           {Infos["faq"].map((data, index) => (
             <Accordion {...data} key={index} />
           ))}
@@ -216,8 +211,8 @@ export const Accordion = ({ title, content }) => {
     setHeight(active ? "0px" : `${contentSpace.current.scrollHeight}px`);
     setRotate(
       active
-        ? "transform duration-700 ease"
-        : "transform duration-700 ease rotate-90"
+        ? "transform duration-500 ease"
+        : "transform duration-500 ease rotate-90"
     );
   }
 
@@ -227,7 +222,7 @@ export const Accordion = ({ title, content }) => {
         className="py-2 my-1 border-b group border-opacity-20 border-qosdark font-bold box-border appearance-none cursor-pointer focus:outline-none flex items-center justify-between"
         onClick={toggleAccordion}
       >
-        <p className="inline-block text-qosdark group-hover:text-qosorange text-opacity-70 font-bold text-mlg">
+        <p className="inline-block text-qosdark group-hover:text-qosblue text-opacity-70 font-bold text-mlg">
           {title}
         </p>
         <span
