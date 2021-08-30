@@ -1,2 +1,2 @@
-const baseUrl = "http://blogeditorapi.herokuapp.com";
+const baseUrl = "https://blogeditorapi.herokuapp.com";
 export default baseUrl;
