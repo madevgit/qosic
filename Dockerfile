@@ -6,5 +6,9 @@ COPY package.json package-lock.json /qos-website/
 CMD npm install @craco/craco --save 
 RUN npm install
 COPY . /qos-website
-CMD npm start
-EXPOSE 3000
+RUN npm run-script build
+RUN npm install -g serve
+#COPY . /qos-website
+#RUN npm start
+CMD serve build
+EXPOSE 5000
